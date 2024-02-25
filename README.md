@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Adopt aliens</h2>
+  <h2>Adopt aliens under construction.</h2>
   <span>You can adopt/leave an alien, or donate to support it.</span>
 </div>
 <br />
@@ -14,10 +14,10 @@ Under construction
 ![startingPage](./assets/starting-page-animation2.gif)
 
 ## How to run
+You need to have Node.js installed on your machine
+Go to [https://nodejs.org/en](https://nodejs.org/en) and download LTS version.
 
 ```bash
-#You need to have Node.js installed on your machine
-Go to [https://nodejs.org/en](https://nodejs.org/en) and download LTS version.
 # Clone this repository
 git clone https://github.com/andrei-alexandrov/electron-adopt-aliens.git
 # Go into the repository
