@@ -1,0 +1,31 @@
+{
+  "name": "electron-adopt-aliens",
+  "version": "1.0.0",
+  "description": "Choose from various cute alien creatures and adopt the ones you like.",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "npx electronmon .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [
+    "electron",
+    "javascript"
+  ],
+  "author": "Andre Alexanrov",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "electron": "^29.0.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
